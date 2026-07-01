@@ -191,9 +191,6 @@ export function UploadPage({ onStartComparison }: UploadPageProps) {
               placeholder="https://your-website.com"
               className="w-full px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all"
             />
-            <p className="text-slate-600 text-xs mt-1.5">
-              Note: Some sites block iframe embedding. If the site doesn't load, it may have X-Frame-Options restrictions.
-            </p>
           </div>
 
           {error && (
